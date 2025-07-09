@@ -2321,6 +2321,12 @@ footer {
   }
   /* -------------------------------------------- */
   /* Home Page */
+  .welcome{
+    padding: 0px 30px;
+  }
+  .welcome span{
+    font-size: 4rem;
+  }
   #Matching {
     height: 700px;
     flex-direction: row;
@@ -2332,17 +2338,31 @@ footer {
   #Choose-section {
     height: auto;
   }
-
+  #Choose-section h2{
+    padding: 0px 20px;
+  }
   .slider-track img {
     width: 200px;
     height: 120px;
   }
-
+  #Matching button{
+    width: 120px;
+  }
+  #Matching button a{
+    text-align: center;
+  }
   /* -------------------------------------------- */
   /* About Us Page */
   #About .flex {
     flex-direction: column;
     text-align: center;
+  }
+  #About .container{
+    flex-direction: column;
+  }
+  #About .grid{
+    display: flex;
+    flex-wrap: wrap;
   }
   /* -------------------------------------------- */
 
