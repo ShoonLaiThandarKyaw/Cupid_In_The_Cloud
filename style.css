@@ -50,7 +50,7 @@ a {
   flex-direction: column;
   align-items: center;
   margin-top: 50px;
-  animation: hideLoading 1s ease-in-out 4s forwards;
+  animation: hideLoading 1s ease-in-out 3s forwards;
 }
 
 @keyframes hideLoading {
@@ -75,7 +75,7 @@ a {
   height: 100%;
   background: linear-gradient(to right, #f4909e, #f9b9c4);
   position: absolute;
-  animation: load 4s linear forwards;
+  animation: load 3s linear forwards;
 }
 
 @keyframes load {
@@ -132,7 +132,7 @@ a {
 #enter-site {
   opacity: 0;
   visibility: hidden;
-  animation: fadeIn 1s ease-in-out 4s forwards;
+  animation: fadeIn 1s ease-in-out 3s forwards;
   margin-top: -25px;
   z-index: 10;
   transition: transform 0.3s;
