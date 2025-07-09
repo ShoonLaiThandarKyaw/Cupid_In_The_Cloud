@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dating | Cupid in the Clouds</title>
+    <!-- External Css Link -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Logo icon Link -->
+    <link rel="icon" type="image/x-icon" href="Images/cupid-svgrepo-com (3).svg">
+    <!-- Font Awesome Cdn Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+    <!-- Google Font Link -->
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+    
+    </style>
+  </head>
+  <body>
+    <header>
+        <!-- Logo -->
+        <div class="logo">
+            <img src="Images/cupid-svgrepo-com (3).svg" alt="Cupid Icon" width="40" height="40" />
+            <span>Cupid in the Cloud</span>
+        </div>
+
+        <!-- Responsive Hamburger Menu -->
+        <input type="checkbox" id="menu-toggle" class="menu-toggle-checkbox"/>
+        <label for="menu-toggle" class="menu-toggle" aria-label="Open menu">☰</label>
+
+        <!-- Navigation Bar -->
+        <nav class="nav" id="nav">
+            <a href="home.html">Home</a>
+            <a href="AboutUs.html">About Us</a>
+            <a href="tips.html">Relationship Tips</a>
+            <a href="Dating.html">Dating+Matching</a>
+      </nav>
+
+        <!-- Profile Button -->
+        <a href="profile1.html" class="profile-btn">Profile</a>
+    </header>
+    <!-- Heading Icons Animation -->
+
+    <div class="heading-scene">
+      <div class="icon male">
+        <img src="Images/male-svgrepo-com.svg" alt="male-icon" width="30px" height="30px">
+      </div>
+
+      
+      <div class="icon female">
+        <img src="Images/female-person-svgrepo-com.svg" alt="female-icon" width="30px" height="30px">
+      </div>
+
+      <div class="heart-emoji">❤️</div>
+    </div>
+
+    <!-- Hearts Floating -->
+    <div class="hearts-container">
+        <i class="fa-solid fa-heart heart heart1"></i>
+        <i class="fa-solid fa-heart heart heart2"></i>
+        <i class="fa-solid fa-heart heart heart3"></i>
+        <i class="fa-solid fa-heart heart heart4"></i>
+        <i class="fa-solid fa-heart heart heart5"></i>
+    </div> 
+
+    <section class="Dating" >
+      <!-- Matches Page -->
+      <div id="matches" class="tab-content">
+        <div class="header">
+          <div class="tabs">
+            <a href="#discover" class="tab">Discover</a>
+            <a href="#matches" class="tab active">Matches</a>
+          </div>
+          <h1 class="title">Your Matches</h1>
+        </div>
+
+        <div class="matches-grid">
+          <div class="match-card">
+            <div
+              class="match-photo"
+              style="
+                background-image: url('Images/girl-4.jpg');
+              "
+            >
+              <div class="status">Online</div>
+            </div>
+            <div class="match-info">
+              <div class="match-name">Maya, 25</div>
+              <div class="message">Hey! Thanks for the like 😊</div>
+              <div class="time">2 hours ago</div>
+              <button class="chat-btn">Send Message</button>
+            </div>
+          </div>
+
+          <div class="match-card">
+            <div
+              class="match-photo"
+              style="
+                background-image: url('Images/girl-1.jpg');
+              "
+            >
+              <div class="status">Online</div>
+            </div>
+            <div class="match-info">
+              <div class="match-name">Zin, 29</div>
+              <div class="message">Love your profile! Coffee?</div>
+              <div class="time">5 hours ago</div>
+              <button class="chat-btn">Send Message</button>
+            </div>
+          </div>
+
+          <div class="match-card">
+            <div
+              class="match-photo"
+              style="
+                background-image: url('Images/girl-2.jpg');
+              "
+            >
+              <div class="status offline">Offline</div>
+            </div>
+            <div class="match-info">
+              <div class="match-name">Thiri, 27</div>
+              <div class="message">Hi there! How's your day?</div>
+              <div class="time">1 day ago</div>
+              <button class="chat-btn">Send Message</button>
+            </div>
+          </div>
+
+          <div class="match-card">
+            <div
+              class="match-photo"
+              style="
+                background-image: url('Images/girl-3.jpg');
+              "
+            >
+              <div class="status offline">Offline</div>
+            </div>
+            <div class="match-info">
+              <div class="match-name">Khin, 24</div>
+              <div class="message">Nice to match with you!</div>
+              <div class="time">2 days ago</div>
+              <button class="chat-btn">Send Message</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Discover Page -->
+      <div id="discover" class="tab-content">
+        <div class="header">
+          <div class="tabs">
+            <a href="#discover" class="tab active">Discover</a>
+            <a href="#matches" class="tab">Matches</a>
+          </div>
+          <h1 class="title">Discover New People</h1>
+        </div>
+
+        <div class="cards">
+          <div class="card">
+            <div
+              class="photo"
+              style="
+                background-image: url('Images/man-1.jpg');
+              "
+            >
+              <div class="name-overlay">
+                <div class="name">Aung, 28</div>
+                <div class="distance">3 miles away Yangon</div>
+              </div>
+            </div>
+            <div class="info">
+              <div class="job">Graphic Designer</div>
+              <div class="bio">
+                Creative soul who loves art and coffee shops.
+              </div>
+              <div class="tags">
+                <span class="tag">Art</span>
+                <span class="tag">Music</span>
+                <span class="tag">Coffee</span>
+              </div>
+              <div class="buttons">
+                <button class="btn reject">✕</button>
+                <button class="btn like">♥</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div
+              class="photo"
+              style="
+                background-image: url('Images/linn.jpg');
+              "
+            >
+              <div class="name-overlay">
+                <div class="name">Linn, 32</div>
+                <div class="distance">5 miles away Yangon</div>
+              </div>
+            </div>
+            <div class="info">
+              <div class="job">Software Engineer</div>
+              <div class="bio">Tech enthusiast and amateur chef.</div>
+              <div class="tags">
+                <span class="tag">Cooking</span>
+                <span class="tag">Hiking</span>
+                <span class="tag">Tech</span>
+              </div>
+              <div class="buttons">
+                <button class="btn reject">✕</button>
+                <button class="btn like">♥</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div
+              class="photo"
+              style="
+                background-image: url('Images/man-2.jpg');
+              "
+            >
+              <div class="name-overlay">
+                <div class="name">Nyan, 26</div>
+                <div class="distance">2 miles away Yangon</div>
+              </div>
+            </div>
+            <div class="info">
+              <div class="job">Marketing Manager</div>
+              <div class="bio">Book lover and yoga enthusiast.</div>
+              <div class="tags">
+                <span class="tag">Books</span>
+                <span class="tag">Yoga</span>
+                <span class="tag">Travel</span>
+              </div>
+              <div class="buttons">
+                <button class="btn reject">✕</button>
+                <button class="btn like">♥</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div
+              class="photo"
+              style="
+                background-image: url('Images/man-3.jpg');
+              "
+            >
+              <div class="name-overlay">
+                <div class="name">Thant, 30</div>
+                <div class="distance">7 miles away Yangon</div>
+              </div>
+            </div>
+            <div class="info">
+              <div class="job">Physical Therapist</div>
+              <div class="bio">
+                Fitness junkie who loves outdoor activities.
+              </div>
+              <div class="tags">
+                <span class="tag">Fitness</span>
+                <span class="tag">Music</span>
+                <span class="tag">Sports</span>
+              </div>
+              <div class="buttons">
+                <button class="btn reject">✕</button>
+                <button class="btn like">♥</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-column">
+                <h2><span><img src="Images/cupid-svgrepo-com (3).svg" alt="Cupid Icon" width="30" height="30" /></span> Cupid in the Cloud</h2>
+                <p>Finding your perfect match has never been easier.</p>
+                <p>Join Cupid in the Cloud Today!</p><br>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-column">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="AboutUs.html">About Us</a></li>
+                    <li><a href="tips.html">Relationship Tips</a></li>
+                    <li><a href="Dating.html">Dating+Matching</a></li>
+                    <li><a href="profile1.html">Profile</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-column">
+                <h3>Support</h3>
+                <ul>
+                    <li><a href="#">Help Center</a></li>
+                    <li><a href="#">Safety Tips</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-column">
+                <h3>Subscribe</h3>
+                <p>Stay updated with our latest features and tips</p>
+                <form class="subscribe-form">
+                    <input type="email" placeholder="Your email" />
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+        </div>
+
+        <div class="copyright">
+            <p>© 2025 &nbsp; Cupid in the Cloud. All rights reserved.</p>
+        </div>
+    </footer>
+
+  </body>
+</html>

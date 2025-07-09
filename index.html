@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Cupid in the Clouds</title>
+    <!-- External Css Link -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Logo icon Link -->
+    <link rel="icon" type="image/x-icon" href="Images/cupid-svgrepo-com (3).svg">
+    <!-- Google Font Link -->
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      height: 100vh;
+      background: linear-gradient(to bottom, #f4b9c1cb, #e3d2f2d3);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      overflow: hidden;
+      flex-direction: column;
+    }
+
+    body::before,
+    body::after {
+      content: '☁️';
+      font-size: 350px;
+      position: absolute;
+    }
+
+    body::before {
+      bottom: -150px;
+      left: -70px;
+    }
+
+    body::after {
+      top: -150px;
+      right: -70px;
+      transform: rotate(-180deg);
+    }
+  </style>
+</head>
+<body>
+
+  <div class="cupid" id="loading">
+    <img src="Images/cupid-2.png" alt="cupid">
+  </div>
+
+  <div class="loading">
+    <div class="loading-container"></div>
+    <div class="loading-text">Loading
+      <span>.</span>
+      <span>.</span>
+      <span>.</span>
+    </div>
+  </div>
+
+  <div id="enter-site">
+    <a href="home.html">Get Started</a>
+  </div>
+
+</body>
+</html>
