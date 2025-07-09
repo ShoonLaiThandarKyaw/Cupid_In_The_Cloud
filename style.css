@@ -27,7 +27,7 @@ a {
   position: absolute;
   margin-bottom: 30px;
   transform: translateX(-50%);
-  top: 200px;
+  top: 30%;
   left: 50%;
   animation: bounce 1s infinite;
   z-index: 3;
