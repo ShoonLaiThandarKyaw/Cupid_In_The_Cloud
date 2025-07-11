@@ -25,7 +25,7 @@ This project is designed as a fictional dating-inspired website that includes th
 - No frameworks – pure HTML/CSS
 
 ## 📂 Folder Structure
-Cupid In The cloud
+Cupid In The cloud <br>
 ├── index.html          # Loading Page <br>
 ├── home.html            # Home Page<br>
 ├── AboutUs.html        # About Us Page <br> 
